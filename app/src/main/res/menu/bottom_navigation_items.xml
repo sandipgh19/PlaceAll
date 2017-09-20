@@ -4,16 +4,17 @@
     <item
         android:id="@+id/image"
         android:enabled="true"
-        android:icon="@android:drawable/picture_frame"
+        android:icon="@drawable/image"
         android:title="Image"/>
 
     <item
         android:id="@+id/video"
         android:enabled="true"
-        android:icon="@android:drawable/ic_menu_gallery"
+        android:icon="@drawable/video"
         android:title="Video"/>
     <item
         android:id="@+id/chatting"
         android:enabled="true"
-        android:title="Message"/>
+        android:title="Message"
+        android:icon="@drawable/chat"/>
 </menu>
